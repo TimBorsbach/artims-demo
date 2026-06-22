@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum — Artims Services</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#F2F6FB">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  --paper:#F2F6FB; --paper2:#FFFFFF; --cool:#E7EFF8;
+  --ink:#112A45; --muted:#647689;
+  --line:rgba(17,42,69,.12); --line2:rgba(17,42,69,.07);
+  --accent:#1F73CF; --accent-bright:#4696EF; --accent-deep:#11375F; --accent-soft:#DCEAFB;
+  --font:'Satoshi',-apple-system,sans-serif; --disp:'Clash Display','Satoshi',sans-serif;
+  --r:16px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);background:var(--paper);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+::selection{background:var(--accent);color:#fff}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+@media(max-width:720px){.wrap{padding:0 20px}}
+
+/* Nav */
+nav{position:fixed;top:18px;left:0;right:0;z-index:100;display:flex;justify-content:center}
+.nav-pill{display:flex;align-items:center;gap:28px;background:rgba(255,255,255,.86);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--line2);border-radius:999px;padding:8px 8px 8px 20px;box-shadow:0 10px 34px -16px rgba(17,42,69,.35)}
+.nav-logo-img{height:34px;width:auto;mix-blend-mode:multiply}
+.nav-links{display:flex;gap:24px}
+.nav-links a{font-size:.92rem;font-weight:500;color:#3a4d63;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+@media(max-width:860px){.nav-links{display:none}}
+.btn{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:.92rem;background:var(--accent);color:#fff;padding:11px 20px;border-radius:999px;border:1px solid var(--accent);cursor:pointer;transition:transform .4s cubic-bezier(.22,1,.36,1),background .25s}
+.btn:hover{transform:translateY(-2px);background:#185fae}
+.btn .ar{transition:transform .35s cubic-bezier(.22,1,.36,1)}
+.btn:hover .ar{transform:translateX(4px)}
+
+/* Page content */
+.page-content{padding:148px 0 100px}
+@media(max-width:720px){.page-content{padding:116px 0 72px}}
+
+/* Breadcrumb */
+.breadcrumb{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted);margin-bottom:40px}
+.breadcrumb a{color:var(--accent);font-weight:600;transition:opacity .2s}
+.breadcrumb a:hover{opacity:.7}
+.breadcrumb span{color:var(--muted)}
+
+/* Impressum content */
+.impr-title-label{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.impr-title-label::before{content:'';width:26px;height:1px;background:var(--accent)}
+.impr-title{font-weight:900;font-size:clamp(2rem,5vw,3.2rem);line-height:1.03;letter-spacing:-.03em;color:var(--ink);margin-bottom:56px}
+.impr-grid{display:grid;gap:36px;font-size:.97rem;line-height:1.85;color:var(--muted)}
+.impr-block-label{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+.impr-name{font-size:1.08rem;font-weight:800;color:var(--ink);margin-bottom:4px}
+.impr-block a{color:var(--accent);font-weight:600;transition:opacity .2s}
+.impr-block a:hover{opacity:.7}
+.impr-divider{height:1px;background:var(--line);margin:8px 0}
+.back-link{display:inline-flex;align-items:center;gap:8px;margin-top:52px;font-size:.9rem;font-weight:700;color:var(--accent);letter-spacing:.02em;transition:gap .25s}
+.back-link:hover{gap:12px}
+
+/* Footer */
+footer{background:var(--paper2);border-top:1px solid var(--line);padding:54px 0 38px}
+.f-top{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;align-items:flex-start}
+.f-logo{height:42px;mix-blend-mode:multiply}
+.f-tag{color:var(--muted);font-size:.95rem;max-width:34ch;margin-top:14px}
+.f-links{display:flex;gap:30px;flex-wrap:wrap}
+.f-links a{color:var(--muted);font-size:.92rem;font-weight:500;transition:color .2s}
+.f-links a:hover{color:var(--accent)}
+.f-bot{margin-top:42px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}
+.prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:200}
+</style>
+</head>
+<body>
+
+<div class="prog" id="prog"></div>
+
+<nav id="nav"><div class="nav-pill">
+  <a href="index.html"><img src="img/logo.png" alt="Artims Services" class="nav-logo-img"></a>
+  <div class="nav-links">
+    <a href="index.html#leistungen">Leistungen</a>
+    <a href="index.html#ablauf">Ablauf</a>
+    <a href="index.html#beratung">Beratung</a>
+    <a href="index.html#kontakt">Kontakt</a>
+  </div>
+  <a href="index.html#kontakt" class="btn">Anfrage senden <span class="ar">→</span></a>
+</div></nav>
+
+<main class="page-content">
+  <div class="wrap" style="max-width:760px">
+
+    <nav class="breadcrumb" aria-label="Brotkrümelpfad">
+      <a href="index.html">Startseite</a>
+      <span>›</span>
+      <span>Impressum</span>
+    </nav>
+
+    <div class="impr-title-label">Rechtliches</div>
+    <h1 class="impr-title">Impressum</h1>
+
+    <div class="impr-grid">
+
+      <div class="impr-block">
+        <div class="impr-block-label">Angaben gemäß § 5 TMG</div>
+        <div class="impr-name">Kastriot Mehmeti</div>
+        <div>Artims Services</div>
+        <div>Uhlandstr. 14</div>
+        <div>97980 Bad Mergentheim</div>
+      </div>
+
+      <div class="impr-divider"></div>
+
+      <div class="impr-block">
+        <div class="impr-block-label">Kontakt</div>
+        <div>Telefon: <a href="tel:+4915215084694">+49 152 15084694</a></div>
+      </div>
+
+      <div class="impr-divider"></div>
+
+      <div class="impr-block">
+        <div class="impr-block-label">Haftung für Inhalte</div>
+        <div>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.</div>
+      </div>
+
+      <div class="impr-block">
+        <div class="impr-block-label">Haftung für Links</div>
+        <div>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft.</div>
+      </div>
+
+      <div class="impr-block">
+        <div class="impr-block-label">Urheberrecht</div>
+        <div>Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</div>
+      </div>
+
+    </div>
+
+    <a href="index.html" class="back-link">← Zurück zur Startseite</a>
+
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="f-top">
+    <div><img src="img/logo.png" alt="Artims Services" class="f-logo"><p class="f-tag">Ihr Hausmeisterdienst rund ums Eigenheim — alles aus einer Hand.</p><p class="f-tag" style="margin-top:8px"><a href="tel:+4915215084694" style="color:var(--accent);font-weight:700">+49 152 15084694</a></p></div>
+    <div class="f-links"><a href="index.html#leistungen">Leistungen</a><a href="index.html#ablauf">Ablauf</a><a href="index.html#beratung">Beratung</a><a href="index.html#kontakt">Kontakt</a><a href="impressum.html">Impressum</a></div>
+  </div>
+  <div class="f-bot"><span>© 2026 Artims Services</span><span>Wir freuen uns darauf, es gemeinsam zu machen.</span></div>
+</div></footer>
+
+<script>
+const p=document.getElementById('prog');
+addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;p.style.width=(h>0?scrollY/h*100:0)+'%'},{passive:true});
+</script>
+</body>
+</html>
